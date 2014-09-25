@@ -1,0 +1,46 @@
+#racetrack{
+  background-image: url('background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50rem;
+}
+
+.players{
+  background-size: cover;
+  position: fixed;
+  left: 10;
+  top: 15rem;
+}
+
+#player1{
+  background-image: url('squirtle.gif');
+  height: 5rem;
+  width: 5rem;
+}
+
+#player2{
+  background-image: url('charmander.gif');
+  height: 5rem;
+  width: 5rem;
+}
+
+#gameover{
+  display: none;
+  position: fixed;
+  height: 12rem;
+  width: 40rem;
+  left: 15rem;
+  top: 5rem;
+  background-color: #E4E4E4;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+#avatar{
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  margin: auto;
+  margin-top: 1rem;
+  background-size: cover;
+}
